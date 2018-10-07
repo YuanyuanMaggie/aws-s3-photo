@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./Application.css";
 
 import { Storage } from "aws-amplify";
-import { withAuthenticator } from "aws-amplify-react";
+// import { withAuthenticator } from "aws-amplify-react";
 
 // Storage.configure({level: 'private'});
 
@@ -74,4 +74,5 @@ class Application extends Component {
   }
 }
 
-export default withAuthenticator(Application);
+// export default withAuthenticator(Application);
+export default Application;
